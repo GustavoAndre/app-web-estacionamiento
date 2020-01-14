@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+	font-size:12px;
+	text-align: justify;
+}
+body{
+	background: #fff;
+}
+header,.main{
+	width: 90%;
+	max-width: 1500px;
+	margin:20px auto;
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	height: auto;
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+	height: auto;
+}
+nav{
+	overflow: hidden;
+	float: right;
+}
+a span{
+	color: orange;
+	font-size: 15px;
+}
+ul{
+	list-style: none;
+
+}
+li{
+	background: ;
+	float: left;
+}
+li a{
+	display: block;
+	padding: 10px 20px;
+	color: #103A60;
+	text-decoration: none;
+}
+li a:hover{
+	color: orange;
+	border-radius: 10px;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	transition-delay:0.08s;
+}
+hr{
+	max-width: 1500px;
+	width: 90%;
+	margin: auto;
+}
+.main .articulos{
+	width: 100%;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+	background-image: url(../img/logeo.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.main{
+	box-sizing: border-box;
+	background-color: ;
+}
+.frm1{
+	width: 30% ;
+	height: auto;
+	padding: 20px;
+	background: #fff;
+	margin: 40px auto;
+}
+.frm1 h1{
+	padding: 10px 0px;
+	font-family: verdana;
+	font-size: 16px;
+	text-align: right;
+	font-weight: bold;
+	color: #103A60 ;
+}
+label[for="usuario"],[for="contraseña"] {
+	margin: 20px 0px 5px 0px;
+	font-size: 15px;
+	font-family: verdana;
+	display: block;
+	width: 100%;
+	color: #103A60;
+}
+input:focus{
+}
+input:click{
+	border:none;
+}
+input {
+	width: 94%;
+	padding:10px;
+	border: none;
+	border-bottom: 1px solid #103A60 ;
+}
+input[type="submit"]{
+	margin-top:10px;
+	background: #1668c4;
+	color: #fff;
+	border: none;
+	border-bottom: 1px solid #1668c4;
+	width: 20%;
+	font-family: verdana;
+	font-size: 15px;
+}
+input[type="submit"]:hover{
+	background: #4A88F4;
+	cursor: pointer;
+}
+
+aside{
+	width: 100%;
+	padding: 25px;
+	margin-top:30px;
+	background:#103A60;
+	color: #fff;
+	float: right;
+	box-sizing: border-box;
+}
+aside h3{
+	padding: 20px 0px;
+	text-align: left;
+	font-size: 20px;
+	font-family: verdana;
+}
+aside p{
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 1100px){
+	body{
+		background-color: ;
+	}
+	.logo{
+		width: 100%;
+	}
+	.logo img{
+		width: 50%;
+		margin: 5px 24%;
+    }
+	li{
+		width: 100%;
+	}
+	nav{
+		width: 100%;
+	}
+
+}
+@media screen and (max-width: 700px){
+    
+	body{
+		background-color: ;
+	}
+	.logo{
+		width: 100%;
+	}
+	.logo img{
+		width: 50%;
+		margin: 5px 24%;
+    }
+	li{
+		width: 100%;
+	}
+	.main .articulos{
+		background-color: ;
+		width: 100%;
+	}
+	.columna1,.columna2,.columna3{
+		width: 95%;
+	}
+	.frm1{
+		width: 80%;
+	}
+	aside{
+		width: 100%;
+		margin-top:20px;
+		padding: 5px;
+	}
+	.copyright{
+		width: 100%;
+		display: block;
+		justify-content: normal;
+	}
+	.information{
+		width: 100%;
+		display: block;
+		justify-content: normal;
+	}
+	.container-footer-all{
+    	padding: 0px;
+    }
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+
+

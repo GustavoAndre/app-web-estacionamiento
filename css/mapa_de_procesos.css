@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+	font-size:12px;
+	text-align: justify;
+}
+body{
+	background: #fff;
+}
+header,.main{
+	width: 90%;
+	max-width: 1500px;
+	margin:20px auto;
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	height: auto;
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+	height: auto;
+}
+nav{
+	overflow: hidden;
+	float: right;
+}
+a span{
+	color: orange;
+	font-size: 15px;
+}
+ul{
+	list-style: none;
+
+}
+li{
+	background: ;
+	float: left;
+}
+li a{
+	display: block;
+	padding: 10px 20px;
+	color: #103A60;
+	text-decoration: none;
+}
+li a:hover{
+	color: orange;
+	border-radius: 10px;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	transition-delay:0.08s;
+}
+hr{	
+	max-width: 1500px;
+	width: 90%;
+	margin: auto;
+}
+.main .articulos{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+	background: ;
+	padding: 20px;
+}
+.mapa_de_procesos{
+	width: 70%;
+	float: right;
+	box-sizing: border-box;
+}
+.mapa_de_procesos img{
+	width: 100%;
+}
+.main{
+	box-sizing: border-box;
+	background-color: ;
+}
+article{
+	overflow: hidden;
+	width: 28%;
+	padding: 30px;
+	margin: 5px;
+	background-color:#103A60;
+	box-sizing: border-box;
+	float: left;
+}
+article a{
+	display: block;
+	padding: 5px 0px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+}
+article a:hover{
+	color: orange;
+}
+article h1{
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: verdana;
+}
+aside{
+	width: 100%;
+	padding: 25px;
+	background:#103A60;
+	color: #fff;
+	float: left;
+	box-sizing: border-box;
+}
+aside h3{
+	padding: 20px 0px;
+	text-align: left;
+	font-size: 20px;
+	font-family: verdana;
+}
+aside p{
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 1100px){
+	body{
+		background-color:;
+	}
+	.logo{
+		width: 100%;
+	}
+	.logo img{
+		width: 50%;
+		margin: 5px 24%;
+    }
+	li{
+		width: 100%;
+	}
+	nav{
+		width: 100%;
+	}
+	.main{
+		background-color: ;
+	}
+	.main .articulos{
+		width: 100%;
+		background-color:;
+	}
+	.mapa_de_procesos{
+		width: 100%;
+		float: right;
+		box-sizing: border-box;
+	}
+	.mapa_de_procesos img{
+		width: 100%;
+	}
+	article{
+		width: 99%;
+		background-color:;
+	}
+    aside{
+    	width: 100%;
+    	margin: 10px auto;
+		padding: 20px;
+
+    }
+    .container-footer-all{
+    	padding: 0px;
+    }
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+
+}
+@media screen and (max-width: 800px){
+    
+	body{
+		background-color: ;
+	}
+	.logo{
+		width: 100%;
+	}
+	.logo img{
+		width: 50%;
+		margin: 5px 24%;
+    }
+	li{
+		width: 100%;
+	}
+	.main .articulos{
+		background-color: ;
+		width: 100%;
+	}
+	.columna1,.columna2,.columna3{
+		width: 95%;
+	}
+	aside{
+		display: none;
+	}
+	.copyright{
+		width: 100%;
+		display: block;
+		justify-content: normal;
+	}
+	.information{
+		width: 100%;
+		display: block;
+		justify-content: normal;
+	}
+}
