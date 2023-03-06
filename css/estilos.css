@@ -39,7 +39,7 @@ ul{
 	list-style: none;
 }
 li{
-	background: ;
+	background: none;
 	float: left;
 }
 li a{
@@ -78,7 +78,7 @@ a span{
 }
 .main{
 	box-sizing: border-box;
-	background-color: ;
+	background-color: none;
 }
 article{
 	overflow: hidden;
@@ -87,7 +87,7 @@ article{
 	box-sizing: border-box;
 }
 .columna1, .columna2, .columna3{
-	background-color: ;
+	background-color: none;
 	color: #103A60;
 	width: 33.3%;
 	margin: px;
@@ -114,7 +114,7 @@ article{
 .fila1,.fila2{
 	width: 85%;
 	margin: auto;
-	background-color:;
+	background-color:none;
 	overflow: hidden;
 	padding: 40px 20px;
 }
@@ -134,7 +134,7 @@ article{
 aside{
 	width: 20%;
 	padding: 25px;
-	background:#103A60;
+	background:#6695c2;
 	color: #fff;
 	float: right;
 	box-sizing: border-box;
@@ -169,7 +169,7 @@ aside p{
 }
 @media screen and (max-width: 1100px){
 	body{
-		background-color: ;
+		background-color: none;
 	}
 	.logo{
 		width: 100%;
@@ -190,15 +190,15 @@ aside p{
 		margin: auto;
 	}
 	.main{
-		background-color: ;
+		background-color: none;
 	}
 	.main .articulos{
 		width: 100%;
-		background-color:;
+		background-color:none;
 	}
 	article{
 		width: 100%;
-		background-color:;
+		background-color:none;
 	}
     aside{
     	width: 100%;
@@ -226,7 +226,7 @@ aside p{
 @media screen and (max-width: 800px){
     
 	body{
-		background-color: ;
+		background-color: none;
 	}
 	.logo{
 		width: 100%;
@@ -239,7 +239,7 @@ aside p{
 		width: 100%;
 	}
 	.main .articulos{
-		background-color: ;
+		background-color: none;
 		width: 100%;
 	}
 	.columna1,.columna2,.columna3{
